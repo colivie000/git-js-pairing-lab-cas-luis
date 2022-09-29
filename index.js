@@ -60,3 +60,8 @@ function isNegative(num) {
 console.log("Function isNegative");
 console.log(isNegative(7));
 
+function triangleArea(num1, num2){
+    return ((num1*num2)/2);
+}
+console.log("Functon traingleArea");
+console.log(triangleArea(6,8));

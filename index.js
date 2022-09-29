@@ -38,3 +38,15 @@ function multiply(num1, num2) {
 } 
 console.log("Function multiply");
 console.log(multiply(2, 4));
+
+function add(num1, num2){
+    if(num1 === num2){
+        return ((num1 + num2)*3);
+    }else{
+        return num1 + num2;
+    }
+}
+console.log("Function add");
+console.log(add(5,5));
+console.log(add(5, 10));
+

@@ -50,3 +50,13 @@ console.log("Function add");
 console.log(add(5,5));
 console.log(add(5, 10));
 
+function isNegative(num) {
+  if (num<0) {
+    return true
+  } else {
+    return false
+  }
+}
+console.log("Function isNegative");
+console.log(isNegative(7));
+

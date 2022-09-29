@@ -4,4 +4,13 @@ function fiveTo0neHundred() {
         console.log(i);
     }
 }
+console.log("Function fiveToOneHundred");
 fiveTo0neHundred();
+
+function multiplesOfThree(){
+    for(let i = 3; i <= 100; i+=3){
+        console.log(i);
+    }
+}
+console.log("Function multiplesOfThree");
+multiplesOfThree();
